@@ -197,3 +197,5 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 60ms (Views: 50.2ms | ActiveRecord: 0.0ms | Allocations: 40663)
 
 
+  [1m[35m (27.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "artbeat_rails_development"[0m
+  [1m[35m (27.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "artbeat_rails_test"[0m

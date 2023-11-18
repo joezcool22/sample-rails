@@ -19,10 +19,10 @@ test:
   password: 3M#Aav!&4hEDke[
 
 
-#
 production:
   <<: *default
-  database: artbeat_rails_production
-  username: postgres
-  password: <%= ENV["RAILS_DATABASE_PASSWORD"] %>
-  host: <%= ENV["RAILS_DATABASE_HOST"] %>
+  username: <%= Rails.application.credentials.production[:db_username] %>
+  password: <%= Rails.application.credentials.production[:db_password] %>
+  host: <%= Rails.application.credentials.production[:db_host] %>
+  port: <%= Rails.application.credentials.production[:db_port] || 5432 %>
+  database: <%= Rails.application.credentials.production[:db_name] %>

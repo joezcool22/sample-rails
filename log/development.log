@@ -502,3 +502,273 @@ Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:03:31 -0600
   
 ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
   
+Started GET "/" for ::1 at 2023-11-18 09:11:01 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 154.0ms | Allocations: 67455)
+  Rendered layout layouts/application.html.erb (Duration: 154.5ms | Allocations: 67553)
+Completed 500 Internal Server Error in 170ms (ActiveRecord: 0.0ms | Allocations: 71923)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "C:/Users/joezc/Desktop/sample-rails/app/views"
+  * "C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/turbo-rails-1.5.0/app/views"
+  * "C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/actiontext-7.0.8/app/views"
+  * "C:/Ruby32-x64/lib/ruby/gems/3.2.0/gems/actionmailbox-7.0.8/app/views"
+):
+     7: 
+     8: 
+     9: 
+    10: <%= render 'layouts/footer' %>
+    11: 
+    12: </div>
+  
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2023-11-18 09:13:50 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 2.7ms | Allocations: 2375)
+  Rendered home/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 3345)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3428)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 4227)
+
+
+  
+ActionView::Template::Error (The asset "ARTBEATvSingleAlbum-DUBIDUBI.jpg" is not present in the asset pipeline.
+):
+    1:   <div class="footer text-center mt-auto">
+    2:     <div class="grid place-items-center">
+    3:       <%= link_to 'https://linktr.ee/artbeat_v.dubidubi', target: '_blank' do %>
+    4:         <%= image_tag 'ARTBEATvSingleAlbum-DUBIDUBI.jpg', alt: 'Artbeat V Dubi Dubi', class: 'mx-auto' %>
+    5:       <% end %>
+    6:     </div>
+    7: 
+  
+app/views/layouts/_footer.html.erb:4
+app/views/layouts/_footer.html.erb:3
+app/views/home/index.html.erb:10
+Started GET "/" for ::1 at 2023-11-18 09:14:54 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 50.2ms | Allocations: 58223)
+  Rendered home/index.html.erb within layouts/application (Duration: 51.7ms | Allocations: 58945)
+  Rendered layout layouts/application.html.erb (Duration: 70.5ms | Allocations: 81363)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms | Allocations: 81691)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:14:55 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:17:48 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 721)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1682)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 10457)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 11275)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:17:49 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:18:12 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 725)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1688)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 10444)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 11263)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:18:13 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:18:16 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 535)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1253)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 9706)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 9983)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:18:16 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:18:27 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 725)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1689)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 10443)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 11263)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:18:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:18:49 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 725)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1688)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 10456)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 11277)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:18:49 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:19:30 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 725)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1688)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 10475)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 11294)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:19:30 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:19:56 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 725)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1688)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 10461)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 11280)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:19:56 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:20:26 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 725)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1688)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 10463)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 11282)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:20:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:20:27 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 535)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1253)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 9712)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 9989)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:20:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:20:51 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 725)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1688)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 10471)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 11291)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:20:51 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:21:00 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 725)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1688)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 10467)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 11286)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:21:00 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:21:01 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.6ms | Allocations: 535)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1253)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 9718)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 9995)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:21:01 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:21:35 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 535)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1253)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 9691)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 9967)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:21:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:22:30 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 0.9ms | Allocations: 725)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1689)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 10471)
+Completed 200 OK in 16ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 11289)
+
+
+Started GET "/dist/styles.css" for ::1 at 2023-11-18 09:22:30 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/dist/styles.css"):
+  
+Started GET "/" for ::1 at 2023-11-18 09:23:35 -0600
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 796)
+  Rendered home/index.html.erb within layouts/application (Duration: 46.0ms | Allocations: 35835)
+  Rendered layout layouts/application.html.erb (Duration: 66.7ms | Allocations: 58449)
+Completed 200 OK in 81ms (Views: 71.8ms | ActiveRecord: 0.0ms | Allocations: 62872)
+
+

@@ -95,3 +95,5 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.0ms | Allocations: 38031)
 
 
+  [1m[35m (125.9ms)[0m  [1m[35mCREATE DATABASE "artbeat_rails_development" ENCODING = 'unicode'[0m
+  [1m[35m (130.3ms)[0m  [1m[35mCREATE DATABASE "artbeat_rails_test" ENCODING = 'unicode'[0m

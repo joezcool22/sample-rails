@@ -56,13 +56,13 @@ end
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
-
-  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
-  # gem "rack-mini-profiler"
-
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+  gem 'capistrano', '~> 3.14'
+  gem 'capistrano-rails', '~> 1.6.3'  # Specify a version that exists
+  gem 'capistrano-bundler', '~> 1.6'
+  gem 'capistrano-rbenv', '~> 2.2'
+  gem 'capistrano3-puma', '~> 5.0'
 end
+
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
